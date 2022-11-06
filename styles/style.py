@@ -5,7 +5,54 @@
   >> page colors: http://www.creativecolorschemes.com/resources/free-color-schemes/gray-tone-color-scheme.shtml
 
 """
+# STYLES CSS APP
 
+init_values_panel = """
+    font-size: 12px; 
+    qproperty-alignment: AlignJustify; 
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    border-left: .5px solid #9C3D54;
+    border-right: .5px solid #9C3D54;
+    background-color: #EEB76B
+    
+
+"""
+
+firstTab_Frames_css = """
+#FirstFrame {
+    background-color: #EEB76B
+}
+
+#s-label, #r-label, #i-label , #tasa_contagios_label, #poblacion_total{
+    background-color: #EEB76B
+}
+
+#SecondFrame {
+    background-color: #EEB76B
+}
+
+"""
+
+qlabel_css_twoframe = """
+font-size: 10px; 
+qproperty-alignment: AlignJustify; 
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+background-color: #EEB76B
+"""
+
+qlabel_css_params = """                                
+font-size: 12px; 
+qproperty-alignment: AlignJustify; 
+font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+
+"""
 
 btn_menu_css = """
     #btn_menu{
@@ -42,7 +89,7 @@ main_css = """
                                 y2:1,
                                 stop:0 rgb(0, 0, 0),
                                 stop:1.0 rgb(30, 30, 30));*/
-    background-color: #AD85BA;
+    background-color: #E2703A;
 """
 
 login_css = """
