@@ -1,2 +1,2 @@
-# inventario-electronico-mysql-python
-I work in a mini-inventary for organize electronics components, with MySQL and PySide6.    
+# GUI-ModelSIR-Python
+This repository contains info about Model SIR App for view this model and have poster about Model SIR.   
